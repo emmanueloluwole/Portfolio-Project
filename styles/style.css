@@ -50,7 +50,7 @@ nav ul li{
 .section{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    padding: 3% 0 3% 0%;
 }
 .section-content{
     max-width: 1000px;
@@ -102,3 +102,75 @@ footer{
     color: white;
     font-weight:900 ;
 }
+.bensec{
+    display: flex;
+    justify-content: center;
+}
+.bensec1{
+    width: 25%;
+    padding: 30px;
+    text-align: justify;
+}
+#about{
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.benimage{
+    padding-top: 30px;
+    border-radius: 25px;
+    margin-left: 20px;
+    
+}
+.bensec3{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.bensecc{
+    padding: 5%;
+}
+.testsec{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.testsec1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.testsec2{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.tes{
+    background-color:#f9f9f9;
+    padding: 7% 0 7% 0%;
+}
+.formclass{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    padding-right: 5%;
+
+ }
+ .final{
+     width: 50%;
+ }
+ .lastsec{
+    padding: 5% 0 5% 0%;
+ }
+ .submit-button{
+     background-color: yellow;
+     border: 0px solid yellow;
+     border-radius: 20px;
+     padding: 10px 35px 10px 35px;
+     font-size: 25px;
+     
+ }

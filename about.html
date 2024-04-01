@@ -4,59 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome(4.7.0)/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
-    <title>About page</title>
+    <title>About Page</title>
     <style>
-        .asideimg{
-            float: right;
+
+        nav {
+            background-color: transparent;
         }
+        #about{
+            min-height: 100vh;
+            padding-top: 10%;
+        }
+        body{
+            font-size: 20px;
+        }
+
     </style>
 </head>
 
-<body>
+<body style="background-image: url(images/header.jpg); background-size: cover;">
     <header>
         <nav>
-            <section style="text-align: center;">
+            <section style="text-align: center; ">
 
                 <ul class="nav">
-                    <a class="logo" href="#" style=" font-size: larger; float: left;">Emmanuel</a>
+                    <a class="logo" href="#" style="  float: left;">BEN</a>
                     <li class="item">
-                        <a class="link" href="home.html" style="color: grey;">Introduction</a>
-                    </li>
-                    <li class="item">
-                        <a class="link" href="about.html" style="color: grey;"id="active">About me</a>
+                        <a class="link" href="index.html" style="color: white;">Introduction</a>
                     </li>
                     <li class="item">
-                        <a class="link" href="review.html" style="color: grey;">Reviews</a>
+                        <a class="link" href="about.html" style="color: white;"id="active">About me</a>
                     </li>
                     <li class="item">
-                        <a class="link" href="contact.html" style="color: grey;">Contact</a>
+                        <a class="link" href="review.html" style="color: white;">Reviews</a>
                     </li>
-                    <li class="item";">
-                        <a href="components.html" class="link" style="color: grey; align-items: end;">Download CV</a>
+                    <li class="item">
+                        <a class="link" href="contact.html" style="color: white;">Contact</a>
                     </li>
+                    <li class="item">
+                        <a href="#" class="link" style="color: white;">Download CV</a>
+                    </li>
+
                 </ul>
             </section>
         </nav>
     </header>
     <main>
-        <section class="section2" style="display: flex;" >
-            <section style="max-width: 500px; width: 40%;">
-                <h2>This is Emmanuel's Resume</h2>
-                <p>Ben Resume HTML Template is brought to you by Tooplate website. You can feel free to edit and use
-                    this page for your small site. You are allowed to use this HTML template for any kind of purpose.
-                </p>
-                <p>However, please do not re-distribute the downloadable template ZIP file on any template collection
-                    website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+
+
+        <section id="about">
+            <section class="bensec">
+                <section class="bensec1">
+                    <h3>This is ben Resume</h3>
+                    <p>Ben Resume HTML Template is brought to you by Tooplate website. You can feel free to jujedit and
+                        use
+                        this page for your small site. You are allowed to use this HTML template for any kind of
+                        purpose.</p>
+                    <p>However, please do not re-distribute the downloadable template ZIP file on any template
+                        collection website. This is strongly prohibited. Please contact Tooplate for more information.
+                    </p>
+                    <ul>
+                        <li><strong>Full Name :</strong> Ben Wilson </li>
+
+                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+
+                        <li><strong>Website :</strong> company.co</li>
+
+                        <li><strong>Email :</strong> hello@company.co</li>
+                    </ul>
+
+                </section>
+                <section class="bensec2">
+                    <img src="images/true-agency.jpg" alt="benimage" class="benimage" height="300px" width="350px">
+
+                </section>
             </section>
-            <section style="width: 60%;">
-                <img class="asideimg" src="images/true-agency.jpg" alt="" height="400px" width="500px">
+            <section class="bensec3">
+                <section class="bensecc">
+                    <h3>Integer volutpat</h3>
+                    <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel
+                        consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.
+                    </p>
+
+                </section>
+                <section class="bensecc">
+                    <h3>Integer volutpat</h3>
+                    <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel
+                        consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.
+                    </p>
+
+                </section>
+                <section class="bensecc">
+                    <h3>Integer volutpat</h3>
+                    <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel
+                        consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.
+                    </p>
+                </section>
             </section>
-        </section>
-        <footer>
-            <p>Made by emmanuel Oluwole</p>
-        </footer>
     </main>
+    <footer>
+        <p class="copyright-text">Copyright &copy; 2020 Ben Resume Page</p>
+            
+            <p>Design: <a href="https://www.tooplate.com" title="free HTML templates">Tooplate</a></p>
+    </footer>
 </body>
 
 </html>
