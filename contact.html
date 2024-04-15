@@ -12,14 +12,11 @@
             background-color: transparent;
         }
 
-        #contact {
-            min-height: 100vh;
-            
-        }
-        body{
+        #contact {}
+
+        body {
             font-size: 20px;
         }
-
     </style>
 </head>
 
@@ -37,10 +34,10 @@
                         <a class="link" href="about.html" style="color: white;">About me</a>
                     </li>
                     <li class="item">
-                        <a class="link" href="review.html" style="color: white;" id="active">Reviews</a>
+                        <a class="link" href="review.html" style="color: white;">Reviews</a>
                     </li>
                     <li class="item">
-                        <a class="link" href="contact.html" style="color: white;">Contact</a>
+                        <a class="link" href="contact.html" style="color: white;" id="active">Contact</a>
                     </li>
                     <li class="item">
                         <a href="#" class="link" style="color: white;">Download CV</a>
@@ -51,10 +48,10 @@
         </nav>
     </header>
     <main>
-        <section style="background-color: white; display: flex;" class="lastsec" id="contact"> 
+        <section style="background-color: white; display: flex;" class="lastsec" id="contact">
             <section class="formclass">
-                <form <action="http://foo.com" method="get">
-                    <section >
+                <form action="http://foo.com" method="get">
+                    <section>
                         <label for="firstname">Full name : </label><br>
                         <input type="text" id="fullname"><br>
                     </section>
@@ -70,18 +67,18 @@
                     <section style="margin-top: 25px;">
                         <button type="submit" class="submit-button" name="submit">Send</button>
                     </section>
-            </form>
+                </form>
             </section>
             <section class="final">
                 <section>
                     <h3>Say hello</h3>
 
                     <p>010-020-0340</p>
-    
+
                     <p>
                         <a href="#" style="color:black;">
                             hello@company.co
-                        <i class="fa fa-arrow-right" style="color: black;"></i>
+                            <i class="fa fa-arrow-right" style="color: black;"></i>
                         </a>
                     </p>
                     <ul>
@@ -95,11 +92,18 @@
 
             </section>
         </section>
+        <section style="background-color: #f9f9f9; padding-left: 40%; padding-right: 40%; padding-top: 5%; padding-bottom: 5%;">
+            <h3 style="align-items: centre;">Our Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9318.425860369043!2d-8.436769715015009!3d54.275539061171706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee8fc95247353%3A0x952bf0db766e346!2sHazelwood%20Demesne%2C%20Camboline%2C%20Co.%20Sligo!5e0!3m2!1sen!2sie!4v1712832043416!5m2!1sen!2sie"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <p class="copyright-text">Copyright &copy; 2020 Ben Resume Page</p>
-            
-            <p>Design: <a href="https://www.tooplate.com" title="free HTML templates">Tooplate</a></p>
+
+        <p>Design: <a href="https://www.tooplate.com" title="free HTML templates">Tooplate</a></p>
     </footer>
 </body>
 
